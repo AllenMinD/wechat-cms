@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>添加菜单</title>
+
+    <!-- Bootstrap -->
+    <link href="../dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      body {
+        margin-top: 60px;
+        font-family:"Microsoft Yahei",微软雅黑,"Helvetica Neue",Arial,sans-serif;
+        color: black;
+      }
+    </style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+          <h2 style="text-align:center;margin-bottom:30px;">
+            添加菜单
+          </h2>
+          <hr>
+          <form class="form-horizontal">
+            <div class="form-group">
+              <label for="inputMenuName" class="col-sm-2 control-label">菜单名字</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputMenuName" placeholder="菜单名">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputType" class="col-sm-2 control-label">类型</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputType" placeholder="类型">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="Action" class="col-sm-2 control-label">触发动作</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="Action" placeholder="触发动作">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="ActionResponse" class="col-sm-2 control-label">响应动作</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="ActionResponse" placeholder="响应动作">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-success">保存</button>
+                <button type="submit" class="btn btn-default">重置</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../jquery-3.1.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

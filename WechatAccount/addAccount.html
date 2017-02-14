@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>addAccount</title>
+
+    <!-- Bootstrap -->
+    <link href="../dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      body {
+        margin-top: 60px;
+        font-family:"Microsoft Yahei",微软雅黑,"Helvetica Neue",Arial,sans-serif;
+        color: black;
+      }
+    </style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+          <h2 style="text-align:center;margin-bottom:30px;">
+            绑定公众号
+          </h2>
+          <hr>
+          <form class="form-horizontal">
+            <div class="form-group">
+              <label for="add-appid" class="col-sm-4 control-label">AppID(应用id)</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control" id="add-appid" placeholder="">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="app-secret" class="col-sm-4 control-label">AppSecret(应用密钥)</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control" id="app-secret" placeholder="">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="url-address" class="col-sm-4 control-label">URL(服务器地址)</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control" id="url-address" placeholder="">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="token" class="col-sm-4 control-label">Token(令牌)</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control" id="token" placeholder="">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="encoding-AESKey" class="col-sm-4 control-label">EncodingAESKey</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control" id="encoding-AESKey" placeholder="">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-4 col-sm-8">
+                <button type="submit" class="btn btn-success">保存</button>
+                <button type="submit" class="btn btn-default">重置</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../jquery-3.1.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
